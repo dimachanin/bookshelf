@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0 auto;
+  font-size: 22px;
+  width: 800px;
+}
+button{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  padding: 15px;
+  display:inline-block;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+p{
+  padding: 6px;
+}
+img{
+  padding: 6px;
+  width: 210px;
+  height: 297px;
+
+}
+.additiveRecordWindow{
+  display: none;
+}
+.header{
+  background: linear-gradient(-45deg, #d12828, #700a0a);
+  color: #FFF;
+}
+.editInput{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 1px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1.5px 1.5px 3px rgba(129,27,27,0.5);
+  padding: 3px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+.buttonInput{
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+.buttonShowAndHide{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: white;
+  display: inline-block;
+
+}
+.inputButtons{
+  margin-top: 10px;
+  margin-left: 6px;
+}
+.bookRecordButtons{
+  width: 209px;
+
+}
+.book{
+  margin: 0, auto;
+  width: 400px;
+}
+.bookShelf{
+
+}

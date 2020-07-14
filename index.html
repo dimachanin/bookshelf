@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Книжная полка</title>
+  <meta charset="UTF-8">
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="app.js" type="text/javascript" async defer></script>
+  <link rel="stylesheet" type="text/css" href="style/reset.css" >
+  <link rel="stylesheet" type="text/css" href="style/style.css" >
+</head>
+<body>
+  <div class="header">
+    <h1>Книжная полка</h1>
+    <button type="button" id="showAndHideBtn" class="buttonShowAndHide">Добавить новую книгу</button>
+  </div>
+
+  <div id="additiveWindow" class="additiveRecordWindow">
+    <input type="text" id="editBookTitle" class="editInput" name="bookTitle" placeholder="Введите название книги"><br>
+    <input type="text" id="editBookAuthor" class="editInput" name="bookAuthor" placeholder="Введите автора книги"><br>
+    <input type="text" id="editBookDate" class="editInput" name="bookDate" placeholder="Введите дату издания книги"><br>
+    <input type="text" id="editBookImage" class="editInput" name="bookImage" placeholder="Введите адрес картинки"><br>
+    <div class="inputButtons">
+      <button type="button" id="btnSave" class="buttonInput">Сохранить</button>
+      <button type="button" id="btnCancel" class="buttonInput">Отменить</button>
+    </div>
+  </div>
+
+  <div id="bookshelf" class="bookShelf">
+    <h2>Список книг</h2>
+  </div>
+
+</body>
+</html>
